@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/christinaqtruong/static/css/main.b100e6da.chunk.css",
+    "main.js": "/christinaqtruong/static/js/main.f26392f2.chunk.js",
+    "main.js.map": "/christinaqtruong/static/js/main.f26392f2.chunk.js.map",
+    "runtime-main.js": "/christinaqtruong/static/js/runtime-main.7b1cdfde.js",
+    "runtime-main.js.map": "/christinaqtruong/static/js/runtime-main.7b1cdfde.js.map",
+    "static/js/2.cf94c3f8.chunk.js": "/christinaqtruong/static/js/2.cf94c3f8.chunk.js",
+    "static/js/2.cf94c3f8.chunk.js.map": "/christinaqtruong/static/js/2.cf94c3f8.chunk.js.map",
+    "index.html": "/christinaqtruong/index.html",
+    "precache-manifest.5fa022557a0f0131aff1f87b97d8914e.js": "/christinaqtruong/precache-manifest.5fa022557a0f0131aff1f87b97d8914e.js",
+    "service-worker.js": "/christinaqtruong/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/christinaqtruong/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/christinaqtruong/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b1cdfde.js",
+    "static/js/2.cf94c3f8.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.f26392f2.chunk.js"
+  ]
+}
