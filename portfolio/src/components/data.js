@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import Project from "./project";
-import Go_Giphy from "./images/Go_Giphy.png";
-import Clicky_Game from './images/Clicky_Game.png';
-import Lazy_Timer from "./images/Lazy_Timer.png";
-import Engauge from "./images/Engauge.png";
-import Heroes_United from "./images/Heroes_United.png";
+import React, { useState, createContext } from "react";
+import Go_Giphy from "../images/Go_Giphy.png";
+import Clicky_Game from "../images/Clicky_Game.png";
+import Lazy_Timer from "../images/Lazy_Timer.png";
+import Engauge from "../images/Engauge.png";
+import Heroes_United from "../images/Heroes_United.png";
 
-const ProjectList = () => {
+export const DataContext = createContext();
+export const Data = (props) => {
   const [projects] = useState([
     {
       title: "Heroes United X: The Awakening",
@@ -130,14 +130,5 @@ const ProjectList = () => {
     }
   ]);
 
-
-  return (
-    <div>
-      {projects.map(project => (
-        <Project name={project.title} image={project.icon} key={project.title} tags={project.tags.join(", ")}/>
-      ))}
-    </div>
-  );
+  return <DataContext.Provider value={[projects]}>{props.children}</DataContext.Provider>;
 };
-
-export default ProjectList;
