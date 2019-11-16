@@ -1,13 +1,17 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
-function Title() {
+const aboutStyle = {
+  paddingTop: 128
+}
+
+function About() {
   return (
-    <Jumbotron fluid>
+    <Jumbotron fluid style={aboutStyle}>
       <h1>christina q. truong</h1>
       <p>Full stack web developer specialized in React and Javascript.</p>
     </Jumbotron>
   );
 }
 
-export default Title;
+export default About;

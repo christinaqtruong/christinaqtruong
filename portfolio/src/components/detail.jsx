@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
-import Project from "./project";
-import { Container} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 import {DataContext} from "./data";
 
 const Detail = () => {
@@ -8,17 +7,13 @@ const Detail = () => {
   return (
     <Container style={{
       display: "flex",
-      flexDirection: "row",
-      flexWrap: "wrap",
       justifyContent: "center"
     }}>
-        {projects.map(project => (
-            <Project style={{flex: "1"}} 
-              name={project.title}
-              image={project.icon}
-              key={project.title}
-              tags={project.tags.join(", ")}
-            />
+        <h3>Project Title</h3>
+        <p>Development Process</p>
+        {projects[0].dev.map(dev => (
+            <li style={{flex: "1"}}
+            >{projects[0].dev}</li>
         ))}
     </Container>
   );

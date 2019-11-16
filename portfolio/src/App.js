@@ -1,6 +1,7 @@
 import React from "react";
-import Title from "./components/title";
+import About from "./components/about";
 import "./App.scss";
+import Navigation from "./components/nav";
 import ProjectList from "./components/projectList";
 import Detail from "./components/detail";
 import { Data } from "./components/data";
@@ -10,10 +11,11 @@ function App() {
   return (
     <Data>
       <div className="App">
-        <Title />
+        <Navigation />
         <Router>
+          <Route path="/about" component={About} />
           <Route path="/projects" component={ProjectList} />
-          <Route path="/project" component={Detail}/>
+          <Route path="#" component={Detail} />
         </Router>
       </div>
     </Data>
