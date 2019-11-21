@@ -14,6 +14,7 @@ const ProjectList = () => {
         justifyContent: "center",
         paddingTop: 70
       }}
+      id="projects"
     >
       {projects.map(project => (
         <Project

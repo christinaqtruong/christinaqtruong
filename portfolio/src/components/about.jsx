@@ -7,7 +7,7 @@ const aboutStyle = {
 
 function About() {
   return (
-    <Jumbotron fluid style={aboutStyle}>
+    <Jumbotron fluid style={aboutStyle} id="about">
       <h1>christina q. truong</h1>
       <p>Full stack web developer specialized in React and Javascript.</p>
     </Jumbotron>
