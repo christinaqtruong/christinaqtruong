@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import Pdf from '../resume/truong_q_christina_resume.pdf';
+import Image from 'react-bootstrap/Image';
+import ResumeImage from "../resume/truong_christina_resume.svg"
 
 class Resume extends Component {
 
   render() {
 
     return (
-      <div className = "Resume">
-        <a href={Pdf}>Resume</a>
-      </div>
+      <Image style={{marginTop: "13vh", marginBottom: "5vh", border: "solid", borderWidth: "1px", borderColor: "black"}} src={ResumeImage} fluid />
     );
   }
 }
