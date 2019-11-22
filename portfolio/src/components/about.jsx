@@ -4,24 +4,22 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 
 const aboutStyle = {
-  paddingTop: 128,
+  marginTop: "8vh",
   marginBottom: 0
 }
 
 const scrollBar = {
   display: "flex",
   justifyContent: "center",
-  paddingBottom: 15
 };
 
 const wrapperStyle = {
-  height: "92vh",
   minHeight: "92vh"
 }
 
 function About() {
   return (
-    <div style={wrapperStyle}>
+    <div className="about-wrapper" style={wrapperStyle}>
     <Jumbotron fluid style={aboutStyle} id="about">
       <h1>christina q. truong</h1>
       <p>Full stack web developer specialized in React and Javascript.</p>

@@ -8,13 +8,14 @@ const containerStyle = {
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
-  height: "92vh",
-  minHeight: "92vh"
+  minHeight: "92vh",
+  position: "relative"
 };
 
 const scrollBar = {
   display: "flex",
-  justifyContent: "center"
+  justifyContent: "center",
+  height: "5%"
 };
 
 const projectsStyle = {
@@ -22,6 +23,8 @@ const projectsStyle = {
   flexDirection: "row",
   flexWrap: "wrap",
   justifyContent: "center",
+  height: "95%",
+  width: "100%"
 };
 
 const ProjectList = () => {
@@ -31,7 +34,7 @@ const ProjectList = () => {
       <div className="projects" style={projectsStyle}>
         {projects.map(project => (
           <Project
-            style={{ flex: "1" }}
+            style={{ flex: "1",}}
             name={project.title}
             image={project.icon}
             key={project.title}
@@ -41,7 +44,6 @@ const ProjectList = () => {
           // `/projects/${project.id}`
         ))}
       </div>
-      <div>
         <Link
           activeClass="active"
           to="about"
@@ -53,7 +55,6 @@ const ProjectList = () => {
         >
           Back to About
         </Link>
-      </div>
     </Container>
   );
 };
