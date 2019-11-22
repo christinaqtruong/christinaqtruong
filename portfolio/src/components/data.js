@@ -9,11 +9,12 @@ export const DataContext = createContext();
 export const Data = (props) => {
   const [projects] = useState([
     {
+      id: 1,
       title: "Heroes United X: The Awakening",
       dev: [
         "User must create a username and password stored in a MySQL Database to log in and create a character",
         "User authentication via Passport.js allows previous users to relog and access stored character and chapter progress data",
-        "A Node and Express Web Server is used to navgiate different stages of the game",
+        "A Node and Express Web Server is used to navigate different stages of the game",
         "GET and POST routes retrieve and add new data to the database as chapters are completed or character stats changed",
         "Illustrator used to create svgs for head, body and leg attack selections",
         "Animations done using JavaScript and jQuery",
@@ -41,6 +42,7 @@ export const Data = (props) => {
       github: "https://github.com/elaintran/heroes-united"
     },
     {
+      id: 2,
       title: "Engauge",
       dev: [
         "User logs in to access app information via Passport.js",
@@ -68,6 +70,7 @@ export const Data = (props) => {
       github: "https://github.com/Dgarza0413/engauge"
     },
     {
+      id: 3,
       title: "Lazy Timer",
       dev: [
         "An input form is dynamically populated upon clicking the timer display",
@@ -89,6 +92,7 @@ export const Data = (props) => {
       github: "https://github.com/christinaqtruong/LazyTimer"
     },
     {
+      id: 4,
       title: "Rick & Morty Themed Clicky Game",
       dev: [
         "A state object holds the array of image cards, score, top score, shaking feature and clicked images in an array",
@@ -110,6 +114,7 @@ export const Data = (props) => {
       github: "https://github.com/christinaqtruong/RickandMortyClickyGame"
     },
     {
+      id: 5,
       title: "Go Giphy",
       dev: [
         "User input is grabbed from a form to dynamically create a search button using jQuery and JavaScript",
