@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Project from "./project";
 import { Container } from "react-bootstrap";
 import { DataContext } from "./data";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 const containerStyle = {
   display: "flex",
@@ -23,15 +23,17 @@ const projectsStyle = {
   flexDirection: "row",
   flexWrap: "wrap",
   justifyContent: "center",
-  height: "95%",
   width: "100%"
 };
 
 const ProjectList = () => {
+
   const [projects] = useContext(DataContext);
+
   return (
-    <Container style={containerStyle} id="projects">
-      <div className="projects" style={projectsStyle}>
+    <Container style={containerStyle} id="work">
+
+      <div className="projects" style={projectsStyle} >
         {projects.map(project => (
           <Project
             style={{ flex: "1",}}
@@ -44,6 +46,7 @@ const ProjectList = () => {
           // `/projects/${project.id}`
         ))}
       </div>
+
         <Link
           activeClass="active"
           to="about"
@@ -53,8 +56,9 @@ const ProjectList = () => {
           duration={500}
           style={scrollBar}
         >
-          Back to About
+          Back to Top
         </Link>
+
     </Container>
   );
 };

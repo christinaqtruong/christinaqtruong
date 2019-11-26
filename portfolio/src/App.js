@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.scss";
-import Navigation from "./components/nav";
+// import Navigation from "./components/nav";
 import Resume from "./components/resume";
 import Detail from "./components/detail";
 import Homepage from "./components/homepage";
@@ -11,7 +11,6 @@ function App() {
   return (
     <Data>
       <div className="App">
-        <Navigation />
         <Router>
           <Route exact path="/" component={Homepage}/>
           <Route exact path="/resume/christina_truong" component={Resume} />
