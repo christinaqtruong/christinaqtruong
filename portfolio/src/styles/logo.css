@@ -1,4 +1,20 @@
 #logo{
-    width: 40vh;
+    width: 30vh;
     height: auto;
 }
+
+#scroller{
+    animation: colorChange 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorChange
+    {
+      0%   {fill:#246EB9;}
+      20%  {fill:#A60067}
+      40% {fill: #5ADBFF}
+      60%  {fill: #1ED830;}
+      80%  {fill: #FB3640;}
+      100%  {fill: #F4FF35;}
+    }
+
