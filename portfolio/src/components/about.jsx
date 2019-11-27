@@ -85,6 +85,8 @@ function About() {
           />
         </svg>
 
+        
+
         <h1>christina q. truong</h1>
         <p className="tagline">Full stack web developer specialized in React and Javascript.</p>
       </div>
