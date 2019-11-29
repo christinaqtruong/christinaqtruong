@@ -1,12 +1,22 @@
-.container{
-    margin: 0;
-    padding: 5vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+#work {
+  margin: 5vh;
+  padding: none;
+  height: 100vh;
+  width: auto;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: row;
+  justify-content: center;
+}
+
+.card {
+  margin: 2vh;
 }
 
 @media (max-width: 600px) {
-    .container{
-        grid-template-columns: 1fr;
-    }
+  .container {
+    grid-template-columns: 1fr;
   }
+}

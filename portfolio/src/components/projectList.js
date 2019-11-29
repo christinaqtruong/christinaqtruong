@@ -1,16 +1,20 @@
 import React, { useContext } from "react";
 import Project from "./project";
-import { Container } from "react-bootstrap";
 import { DataContext } from "./data";
 import { Link} from "react-scroll";
-import "../styles/project.scss"
+import "../styles/project.scss";
+import Navigation from "./nav";
+
 
 const ProjectList = () => {
 
   const [projects] = useContext(DataContext);
 
   return (
-    <Container id="work">
+    <div>
+    <Navigation/>
+
+    <div id="work">
 
       <div className="projects">
         {projects.map(project => (
@@ -36,7 +40,8 @@ const ProjectList = () => {
           Back to Top
         </Link>
 
-    </Container>
+    </div>
+    </div>
   );
 };
 
