@@ -1,19 +1,26 @@
-#work {
-  margin: 5vh;
-  padding: none;
-  height: 100vh;
-  width: auto;
-}
+// #work {
+//   // padding: none;
+//   // height: 95vh;
+//   // width: auto;
+//   // display: flex;
+//   // flex-direction: column;
+//   // justify-content: center;
+// }
 
 .projects {
   display: flex;
-  flex-wrap: row;
+  flex-direction: row;
   justify-content: center;
+  margin: 5vh;
 }
 
-.card {
-  margin: 2vh;
-}
+// .card {
+//   // margin: 2vh;
+// }
+
+// .a {
+//   // position: relative;
+// }
 
 @media (max-width: 600px) {
   .container {
