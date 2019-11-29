@@ -2,15 +2,13 @@ import React from "react";
 import About from "./about";
 import ProjectList from "./projectList";
 import Navigation from "./nav";
-// import Background from "../images/mountain_landscape.svg"
-
-//style={{backgroundImage: `url(${Background})`}}
+import "../styles/about.scss";
 
 function Homepage() {
   return (
     <div>
-      <Navigation/>
       <About />
+      <Navigation/>
       <ProjectList />
     </div>
   );

@@ -1,49 +1,172 @@
-*{margin: 0;
-  padding: 0;
-  box-sizing: border-box;}
-
 .wrapper{
-  display: grid;
-  // grid-template-columns: ;
+  background-color: #fffbfb;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  color:#343a40;
+  padding: 5vh;
 }
 
 #logo {
-  width: 30vh;
+  max-width: 70vh;
   height: auto;
+  margin-top: 5vh;
 }
 
 #logo:hover {
-  #screen {
-    animation: colorChange 10s;
+  #leftmouse,
+  #rightmouse,
+  #headset {
+    animation: colorChange 20s;
     animation-iteration-count: infinite;
   }
-  #scroller {
-    animation: colorChange 10s;
+  #sun {
+    animation: sunColor 20s;
+    animation-iteration-count: infinite;
+  }
+  #screen {
+    animation: screenColor 20s;
+    animation-iteration-count: infinite;
+  }
+  #first {
+    animation: oneColor 20s;
+    animation-iteration-count: infinite;
+  }
+  #second {
+    animation: twoColor 20s;
+    animation-iteration-count: infinite;
+  }
+  #third {
+    animation: threeColor 20s;
+    animation-iteration-count: infinite;
+  }
+  #river {
+    animation: fourColor 20s;
+    animation-iteration-count: infinite;
+  }
+  #fifth {
+    animation: fiveColor 20s;
+    animation-iteration-count: infinite;
+  }
+  #sixth {
+    animation: sixColor 20s;
+    animation-iteration-count: infinite;
+  }
+  #seventh {
+    animation: sevenColor 20s;
     animation-iteration-count: infinite;
   }
 }
 
 @keyframes colorChange {
   0% {
-    fill: #246eb9;
+    fill: #fffbfb;
+  }
+  10% {
+    fill: #fff9bf;
   }
   20% {
-    fill: #a60067;
+    fill: #ffd56a;
+  }
+  30% {
+    fill:#ff9533;
   }
   40% {
-    fill: #5adbff;
+    fill: #f77138;
+  }
+  50% {
+    fill: #c6103c;
   }
   60% {
-    fill: #1ed830;
+    fill: #820f4d;
   }
-  80% {
-    fill: #fb3640;
-  }
-  100% {
-    fill: #f4ff35;
+  70% {
+    fill: #280734;
   }
 }
 
-.tagline{
-    font-family: Arial, Helvetica, sans-serif;
+@keyframes sunColor {
+  0% {
+    fill: black;
+  }
+  10% {
+    fill: #fffbfb;
+  }
+}
+
+@keyframes screenColor {
+  0% {
+    fill: black;
+  }
+  20% {
+    fill: #fff9bf;
+  }
+}
+
+@keyframes oneColor {
+  0% {
+    fill: black;
+  }
+  30% {
+    fill: #ffd56a;
+  }
+}
+
+@keyframes twoColor {
+  0% {
+    fill: black;
+  }
+  40% {
+    fill: #ff9533;
+  }
+}
+
+@keyframes threeColor {
+  0% {
+    fill: black;
+  }
+  50% {
+    fill: #f77138;
+  }
+}
+
+@keyframes fourColor {
+  0% {
+    fill: black;
+  }
+  60% {
+    fill: #d2edfc;
+  }
+}
+
+@keyframes fiveColor {
+  0% {
+    fill: black;
+  }
+  70% {
+    fill: #c6103c;
+  }
+}
+@keyframes sixColor {
+  0% {
+    fill: black;
+  }
+  80% {
+    fill: #820f4d;
+  }
+}
+@keyframes sevenColor {
+  0% {
+    fill: black;
+  }
+  90% {
+    fill: #280734;
+  }
+}
+
+@media (max-width: 600px) {
+  #logo{
+    max-width: 50vh;
+    height: auto;
+  }
 }

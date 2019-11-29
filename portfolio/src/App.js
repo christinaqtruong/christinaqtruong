@@ -6,6 +6,7 @@ import Detail from "./components/detail";
 import Homepage from "./components/homepage";
 import { Data } from "./components/data";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./styles/app.scss";
 
 function App() {
   return (
