@@ -7,16 +7,24 @@
 //   // justify-content: center;
 // }
 
-.projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+#work {
   margin: 5vh;
+  padding: none;
+  height: 100vh;
+  width: auto;
 }
 
-// .card {
-//   // margin: 2vh;
-// }
+.projects {
+  display: flex;
+  flex-wrap: row;
+  // flex-direction: row;
+  justify-content: center;
+  // margin: 5vh;
+}
+
+.card {
+  margin: 2vh;
+}
 
 // .a {
 //   // position: relative;

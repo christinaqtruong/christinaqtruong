@@ -12,9 +12,9 @@ const ProjectList = () => {
 
   return (
     <div>
+    <Navigation/>
 
     <div id="work">
-    <Navigation/>
 
       <div className="projects">
         {projects.map(project => (
