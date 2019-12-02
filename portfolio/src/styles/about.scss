@@ -13,74 +13,67 @@
   margin-top: 5vh;
 }
 
-#logo:hover {
+#logo {
   #leftmouse,
   #rightmouse,
   #headset {
     animation: colorChange 20s;
-    animation-iteration-count: infinite;
   }
   #sun {
     animation: sunColor 20s;
-    animation-iteration-count: infinite;
   }
   #screen {
     animation: screenColor 20s;
-    animation-iteration-count: infinite;
   }
   #first {
     animation: oneColor 20s;
-    animation-iteration-count: infinite;
   }
   #second {
     animation: twoColor 20s;
-    animation-iteration-count: infinite;
   }
   #third {
     animation: threeColor 20s;
-    animation-iteration-count: infinite;
   }
   #river {
     animation: fourColor 20s;
-    animation-iteration-count: infinite;
   }
   #fifth {
     animation: fiveColor 20s;
-    animation-iteration-count: infinite;
   }
   #sixth {
     animation: sixColor 20s;
-    animation-iteration-count: infinite;
   }
   #seventh {
     animation: sevenColor 20s;
-    animation-iteration-count: infinite;
   }
 }
 
 @keyframes colorChange {
   0% {
-    fill: #fffbfb;
+    fill: black;
   }
   10% {
-    fill: #fff9bf;
+    fill: #fffbfb;
   }
   20% {
-    fill: #ffd56a;
+    fill: #fff9bf;
   }
   30% {
-    fill:#ff9533;
+    fill: #ffd56a;
   }
   40% {
-    fill: #f77138;
+    fill:#ff9533;
   }
   50% {
-    fill: #c6103c;
+    fill: #f77138;
   }
   60% {
-    fill: #820f4d;
+    fill: #c6103c;
   }
   70% {
+    fill: #820f4d;
+  }
+  80% {
     fill: #280734;
   }
 }
