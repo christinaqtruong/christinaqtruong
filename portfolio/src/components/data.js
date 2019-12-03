@@ -11,6 +11,7 @@ export const Data = (props) => {
     {
       id: 1,
       title: "Heroes United X: The Awakening",
+      slug: "heroes",
       dev: [
         "User must create a username and password stored in a MySQL Database to log in and create a character",
         "User authentication via Passport.js allows previous users to relog and access stored character and chapter progress data",
@@ -44,6 +45,7 @@ export const Data = (props) => {
     {
       id: 2,
       title: "Engauge",
+      slug: "engauge",
       dev: [
         "User logs in to access app information via Passport.js",
         "User lands on a dashboard containing charts and graphs populated using Nivo that summarizes user data",

@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.scss";
-// import Navigation from "./components/nav";
 import Resume from "./components/resume";
 import Detail from "./components/detail";
 import Homepage from "./components/homepage";
@@ -16,7 +15,6 @@ function App() {
           <Route exact path="/" component={Homepage}/>
           <Route exact path="/resume/christina_truong" component={Resume} />
           <Route exact path="/projects/:id" component={Detail} />
-          {/*<Route path="#" component={Detail} /> */}
         </Router>
       </div>
     </Data>
