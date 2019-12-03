@@ -7,20 +7,19 @@
 
 .projects {
   display: flex;
-  flex-wrap: row;
   justify-content: center;
+  align-items: center;
 }
 
 .card {
   margin: 2vh;
 }
 
-
 @media (max-width: 600px) {
   .projects {
     display: inline-block;
   }
-  .card-text{
+  .card-text {
     display: none;
   }
 }

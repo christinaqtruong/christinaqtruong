@@ -9,7 +9,6 @@ export const DataContext = createContext();
 export const Data = (props) => {
   const [projects] = useState([
     {
-      id: 1,
       title: "Heroes United X: The Awakening",
       slug: "heroes",
       dev: [
@@ -43,7 +42,6 @@ export const Data = (props) => {
       github: "https://github.com/elaintran/heroes-united"
     },
     {
-      id: 2,
       title: "Engauge",
       slug: "engauge",
       dev: [
@@ -72,8 +70,8 @@ export const Data = (props) => {
       github: "https://github.com/Dgarza0413/engauge"
     },
     // {
-    //   id: 3,
     //   title: "Lazy Timer",
+    //   slug: "Lazy",
     //   dev: [
     //     "An input form is dynamically populated upon clicking the timer display",
     //     "Upon submit, the data is pushed to Firebase and reflected real time",
@@ -94,7 +92,6 @@ export const Data = (props) => {
     //   github: "https://github.com/christinaqtruong/LazyTimer"
     // },
     // {
-    //   id: 4,
     //   title: "Rick & Morty Themed Clicky Game",
     //   dev: [
     //     "A state object holds the array of image cards, score, top score, shaking feature and clicked images in an array",
@@ -116,7 +113,6 @@ export const Data = (props) => {
     //   github: "https://github.com/christinaqtruong/RickandMortyClickyGame"
     // },
     // {
-    //   id: 5,
     //   title: "Go Giphy",
     //   dev: [
     //     "User input is grabbed from a form to dynamically create a search button using jQuery and JavaScript",

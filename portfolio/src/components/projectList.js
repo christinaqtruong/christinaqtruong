@@ -21,11 +21,10 @@ const ProjectList = () => {
           <Project
             name={project.title}
             image={project.icon}
-            key={project.title}
+            key={project.slug}
             tags={project.tags.join(", ")}
-            id={project.id}
+            slug={project.slug}
           />
-          // `/projects/${project.id}`
         ))}
       </div>
 

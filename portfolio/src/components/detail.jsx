@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { DataContext } from "./data";
 import "../styles/detail.scss";
+import Navigation from "./nav";
 
 const Detail = props => {
   const [projects] = useContext(DataContext);
@@ -10,16 +11,18 @@ const Detail = props => {
     return project.slug === id;
   });
 
-  console.log(project.dev);
 
   return (
-    <div className="wrapper">
+    <div id="wrapper">
+      <Navigation/>
+      <div id="details">
       <h1>{project.title}</h1>
       <ul className="dev">
         {project.dev.map(dev => (
           <li>{dev}</li>
         ))}
       </ul>
+      </div>
     </div>
   );
 };

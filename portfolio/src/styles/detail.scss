@@ -1,8 +1,13 @@
-.wrapper{
+#wrapper{
     display: flex;
     justify-content: center;
     flex-wrap: none;
     flex-direction: column;
+    padding: 0;
+}
+
+#details{
+    margin: 5vh;
 }
 
 .dev{
