@@ -5,6 +5,7 @@
   height: 100vh;
   color:#343a40;
   padding: 5vh;
+  text-align: center;
 }
 
 #logo {
@@ -161,5 +162,9 @@
   #logo{
     max-width: 50vh;
     height: auto;
+  }
+
+  h1{
+    font-size: 1.875em;
   }
 }
