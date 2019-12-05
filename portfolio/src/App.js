@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.scss";
 import Resume from "./components/resume";
 import Detail from "./components/detail";
 import Homepage from "./components/homepage";

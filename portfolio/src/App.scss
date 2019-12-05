@@ -1,7 +1,0 @@
-@mixin title {
-  text-align: center;
-}
-
-.App {
-  @include title();
-}
