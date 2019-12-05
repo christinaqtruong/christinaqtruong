@@ -10,17 +10,17 @@ function About() {
         <Svg/>
         <h1>christina q. truong</h1>
         <p className="tagline">
-          Full stack web developer specialized in React and Javascript.
+          Full stack web developer specialized in React and Javascript based in Austin, TX.
         </p>
         <Link
           activeClass="active"
-          to="work"
+          to="bio"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
         >
-          View my Work
+          View my Bio
         </Link>
       </div>
     </div>

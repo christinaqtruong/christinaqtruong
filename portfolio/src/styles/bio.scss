@@ -1,0 +1,49 @@
+#bio {
+  background-color: #fffbfb;
+  display: grid;
+  grid-template-rows: 8fr 2fr;
+  grid-template-columns: 1fr 2fr;
+  height: 92vh;
+  color: #343a40;
+  padding: 5vh;
+  text-align: center;
+  align-items: center;
+  grid-gap: 3vh;
+}
+
+.profile-pic {
+  max-height: 200px;
+  width: auto;
+  justify-self: center;
+}
+
+.progress-bar{
+    justify-self: left;
+    grid-row: span 2;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    width: 90%;
+}
+
+.bar{
+    max-width: 40vh;
+}
+
+.trait{
+  color: #343a40;
+  background-color: #fffbfb;
+  text-align: left;
+}
+
+.link{
+    grid-column: span 2;
+    grid-row-start: 3;
+    justify-self: center;
+}
+
+@media (max-width: 600px) {
+    #bio{
+        display: flex;
+        flex-direction: column;
+    }
+  }
