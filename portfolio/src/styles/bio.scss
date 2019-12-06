@@ -1,10 +1,10 @@
 #bio {
-  background-color: #fffbfb;
+  background-color: #343a40;
+  color: #fffbfb;
   display: grid;
   grid-template-rows: 8fr 2fr;
   grid-template-columns: 1fr 2fr;
   height: 92vh;
-  color: #343a40;
   padding: 5vh;
   text-align: center;
   align-items: center;
@@ -17,33 +17,55 @@
   justify-self: center;
 }
 
-.progress-bar{
-    justify-self: left;
-    grid-row: span 2;
-    grid-row-start: 1;
-    grid-column-start: 2;
-    width: 90%;
+.progress-bar {
+  justify-self: left;
+  grid-row: span 2;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  width: 90%;
 }
 
-.bar{
-    max-width: 40vh;
+.bar {
+  max-width: 40vh;
 }
 
-.trait{
-  color: #343a40;
-  background-color: #fffbfb;
+.trait {
+  background-color: #343a40;
+  color: #fffbfb;
   text-align: left;
 }
 
-.link{
-    grid-column: span 2;
-    grid-row-start: 3;
-    justify-self: center;
+.link {
+  grid-column: span 2;
+  grid-row-start: 3;
+  justify-self: center;
+}
+
+.contact-info {
+  grid-column: span 2;
+  justify-self: center;
+}
+
+.Github,
+.LinkedIn {
+  max-width: 64px;
+  height: auto;
+  margin: 5vh;
 }
 
 @media (max-width: 600px) {
-    #bio{
-        display: flex;
-        flex-direction: column;
-    }
+  #bio {
+    display: flex;
+    flex-direction: column;
   }
+
+  .Github,
+  .LinkedIn {
+    max-width: 32px;
+  }
+
+  .profile-pic {
+    max-height: 125px;
+    width: auto;
+  }
+}

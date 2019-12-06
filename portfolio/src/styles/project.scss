@@ -4,14 +4,13 @@
   height: 100vh;
   width: auto;
   text-align: center;
+  justify-content: center;
 }
 
 .projects {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
-  height: 80%;
 }
 
 .card {

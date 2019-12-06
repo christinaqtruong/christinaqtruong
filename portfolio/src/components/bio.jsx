@@ -5,6 +5,8 @@ import Profile from "../images/Profile.jpg";
 import "../styles/bio.scss";
 import { Link } from "react-scroll";
 import ProgressBar from "react-bootstrap/ProgressBar";
+import Github from "../images/GitHub-Mark-Light-64px.png";
+import LinkedIn from "../images/LI-In-Bug.png";
 
 const Bio = () => {
   return (
@@ -23,6 +25,17 @@ const Bio = () => {
           <ProgressBar classname="bar" now={60} />
           <div className="trait">React.js</div>
           <ProgressBar classname="bar" now={70} />
+        </div>
+        <div className="contact-info">
+          <a href="https://github.com/christinaqtruong/" target="_blank">
+            <img className="Github" src={Github} alt="Github Logo" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/christinaqtruong/"
+            target="_blank"
+          >
+            <img className="LinkedIn" src={LinkedIn} alt="Linked In Logo" />
+          </a>{" "}
         </div>
         <Link
           activeClass="active"
