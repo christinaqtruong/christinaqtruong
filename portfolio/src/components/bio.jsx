@@ -14,6 +14,10 @@ const Bio = () => {
       <Navigation />
       <div id="bio">
         <Image className="profile-pic" src={Profile} rounded />
+        <p className="tagline">
+          Full stack web developer specialized in React and Javascript. Based in
+          Austin, TX.
+        </p>
         <div className="progress-bar">
           <div className="trait">HTML</div>
           <ProgressBar classname="bar" now={90} />

@@ -37,7 +37,7 @@
 
 .link {
   grid-column: span 2;
-  grid-row-start: 3;
+  grid-row-start: 4;
   justify-self: center;
 }
 
@@ -51,8 +51,16 @@
   max-width: 64px;
   height: auto;
   margin: 5vh;
+  transition: all 0.2s ease-in-out;
 }
 
+.Github:hover {
+  transform: scale(1.1);
+}
+
+.LinkedIn:hover {
+  transform: scale(1.1);
+}
 @media (max-width: 600px) {
   #bio {
     display: flex;

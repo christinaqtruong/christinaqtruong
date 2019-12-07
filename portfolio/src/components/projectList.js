@@ -35,6 +35,7 @@ const ProjectList = () => {
           smooth={true}
           offset={-70}
           duration={500}
+          id="anchor"
         >
           Back to Top
         </Link>

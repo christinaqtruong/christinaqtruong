@@ -9,9 +9,6 @@ function About() {
       <div id="about">
         <Svg/>
         <h1>christina q. truong</h1>
-        <p className="tagline">
-          Full stack web developer specialized in React and Javascript based in Austin, TX.
-        </p>
         <Link
           activeClass="active"
           to="bio"

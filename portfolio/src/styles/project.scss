@@ -17,6 +17,23 @@
   margin: 2vh;
 }
 
+.card-body {
+  background-color: #fffbfb;
+}
+
+.card-text {
+  color: #997b7b;
+  background-color: #fffbfb;
+}
+
+#anchor {
+  color: #fffbfb;
+}
+.card-title {
+  color: #343a40;
+  background-color: #fffbfb;
+}
+
 @media (max-width: 600px) {
   .projects {
     display: inline-block;
