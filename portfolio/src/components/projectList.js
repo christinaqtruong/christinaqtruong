@@ -1,32 +1,29 @@
 import React, { useContext } from "react";
 import Project from "./project";
 import { DataContext } from "./data";
-import { Link} from "react-scroll";
+import { Link } from "react-scroll";
 import "../styles/project.scss";
 import Navigation from "./nav";
 
-
 const ProjectList = () => {
-
   const [projects] = useContext(DataContext);
 
   return (
     <div>
-    <Navigation/>
+      <Navigation />
 
-    <div id="work">
-
-      <div className="projects">
-        {projects.map(project => (
-          <Project
-            name={project.title}
-            image={project.icon}
-            key={project.slug}
-            tags={project.tags.join(", ")}
-            slug={project.slug}
-          />
-        ))}
-      </div>
+      <div id="work">
+        <div className="projects">
+          {projects.map(project => (
+            <Project
+              name={project.title}
+              image={project.icon}
+              key={project.slug}
+              tags={project.tags.join(", ")}
+              slug={project.slug}
+            />
+          ))}
+        </div>
 
         <Link
           activeClass="active"
@@ -39,8 +36,7 @@ const ProjectList = () => {
         >
           Back to Top
         </Link>
-
-    </div>
+      </div>
     </div>
   );
 };

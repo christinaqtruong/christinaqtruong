@@ -8,10 +8,27 @@
   color: #fffbfb;
 }
 
+.title{
+  text-align: center;
+  font-size: 2em;
+  margin: 2vh;
+}
+
 #details {
   margin: 5vh;
 }
 
+.dev-span{
+  position: relative;
+  left: 15px;
+}
+
 .dev {
   text-align: left;
+}
+
+.carousel{
+  margin: auto;
+  margin-bottom: 2vh;
+  max-width: 60vh;
 }

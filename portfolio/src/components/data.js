@@ -1,7 +1,4 @@
 import React, { useState, createContext } from "react";
-// import Go_Giphy from "../images/Go_Giphy.png";
-// import Clicky_Game from "../images/Clicky_Game.png";
-// import Lazy_Timer from "../images/Lazy_Timer.png";
 import Engauge from "../images/Engauge.png";
 import Heroes_United from "../images/Heroes_United.png";
 
@@ -12,17 +9,16 @@ export const Data = (props) => {
       title: "Heroes United X: The Awakening",
       slug: "heroes",
       dev: [
-        "User must create a username and password stored in a MySQL Database to log in and create a character",
-        "User authentication via Passport.js allows previous users to relog and access stored character and chapter progress data",
-        "A Node and Express Web Server is used to navigate different stages of the game",
-        "GET and POST routes retrieve and add new data to the database as chapters are completed or character stats changed",
-        "Illustrator used to create svgs for head, body and leg attack selections",
-        "Animations done using JavaScript and jQuery",
-        "Character sprites grabbed from Nintendo's Fire Emblem game",
+        "User's username, password and character data is pushed to and accessed from a MySQL Database",
+        "User authentication via Passport.js allows previous users to log in and access stored data",
+        "A Node and Express Web Server navigates different stages of the game",
+        "GET and POST routes retrieve and add new data to the database as chapters are completed or character stats change",
+        "Illustrator created svgs for head, body and leg attack selections",
+        "Attack and miss animations performed via JavaScript and jQuery",
+        "Character sprites derived from Nintendo's Fire Emblem game",
         "Character health bar display changes dynamically using D3.js",
         "Combat system incorporates elements of character speed, attack, defense and hit chance, enacted using JavaScript"
       ],
-      demo: "../assets/gifs/heroes_united_demo.gif",
       background:
         "This was the first collaborative effort with some amazing teammates from my bootcamp, <a href='https://github.com/elaintran'>Elain Tran</a>, <a href='https://github.com/i-k0n/'>Mark Baker</a>, <a href='https://github.com/Dgarza0413'>David Garza</a>, and <a href='https://github.com/bmm019'>Brittany McNulty</a>. We all thought it would be exciting to create an application users could interact with for our first big project. Our goal was to create a game where the user could customize their character, fight bad guys, potentially lose, and try again using either a different character or redistribute their custom points.",
       description:
@@ -39,18 +35,18 @@ export const Data = (props) => {
         "D3"
       ],
       icon: Heroes_United,
-      github: "https://github.com/elaintran/heroes-united"
+      github: "https://github.com/elaintran/heroes-united",
+      gallery: ["../gifs/Gif Images/engauge/E1.png"]
     },
     {
       title: "Engauge",
       slug: "engauge",
       dev: [
         "User logs in to access app information via Passport.js",
-        "User lands on a dashboard containing charts and graphs populated using Nivo that summarizes user data",
-        "Pages are populated using React.js, with specific information dynamically populated using states",
+        "User lands on a dashboard containing charts and graphs populated using Nivo that summarizes user data as graphs",
+        "Pages are populated using React state and filter functions",
         "Data is pushed into/pulled from MongoDB using both GET and POST routes"
       ],
-      demo: "../assets/gifs/engauge_demo.gif",
       background:
         "This project was another collaborative effort with <a href='https://github.com/elaintran'>Elain Tran</a>, <a href='https://github.com/i-k0n/'>Mark Baker</a>, <a href='https://github.com/Dgarza0413'>David Garza</a>, and <a href='https://github.com/bmm019'>Brittany McNulty</a>. Our target was to create an app with real-life application. Engauge's core concept is to automate data collection. David's former role as a geologist required recording extensive data on oil wells in Excel sheets and on paper. With his field knowledge, we tailored Enguage to be an ideal method for consolidating and recording data for small oil companies with multiple wells.",
       description:
@@ -67,7 +63,8 @@ export const Data = (props) => {
         "Google Map React"
       ],
       icon: Engauge,
-      github: "https://github.com/Dgarza0413/engauge"
+      github: "https://github.com/Dgarza0413/engauge",
+      gallery: ["../gifs/Gif Images/engauge/E1.png","../gifs/Gif Images/engauge/E2.png","../gifs/Gif Images/engauge/E3.png","../gifs/Gif Images/engauge/E4.png","../gifs/Gif Images/engauge/E5.png","../gifs/Gif Images/engauge/E6.png","../gifs/Gif Images/engauge/E7.png"]
     },
     // {
     //   title: "Lazy Timer",
@@ -81,7 +78,7 @@ export const Data = (props) => {
     //     "The values are converted back to time format for display using Moment.js",
     //     "setInterval() is used for the timers, with Booleans set to determine which timer is running at any given time"
     //   ],
-    //   demo: "../assets/gifs/lazy_timer_demo.gif",
+    //   demo: "../images/lazy_timer_demo.gif",
     //   background:
     //     "This was one of my first from-scratch projects back when I first learned JavaScript and jQuery. The inspiration for this app came from my first night shift job at the hospital. I picked up interval training and calisthenics as a way to relieve stress and keep busy during my odd schedule. Having to reset the timer between sets inspired me to create this app.",
     //   description:
@@ -102,7 +99,7 @@ export const Data = (props) => {
     //     "If the image id is not in the clicked array, the score is incremented, setState() updates the score state and the new score is rendered to the page",
     //     "If the image id exists in the clicked array, the wrapper state changes and triggers a shaking function and the score resets"
     //   ],
-    //   demo: "../assets/gifs/clicky_game_demo.gif",
+    //   demo: "../images/clicky_game_demo.gif",
     //   background:
     //     "Every developer creates their version of the classic clicky game when introduced to React.js. I modified the original concept by adding in a shaking feature whenever the user clicks the same image and incorporating my own style to the game.",
     //   description:
@@ -121,7 +118,7 @@ export const Data = (props) => {
     //     "Clicking a gif changes its default data-state from 'still' to 'animated' and changes its image 'src' to an animated gif",
     //     "Clicking on a new search button empties the gif container and populates the new gif results"
     //   ],
-    //   demo: "../assets/gifs/go_giphy_demo.gif",
+    //   demo: "../images/go_giphy_demo.gif",
     //   background:
     //     "I created this project to review basic button manipulation, AJAX calls and jQuery methods.",
     //   description:
