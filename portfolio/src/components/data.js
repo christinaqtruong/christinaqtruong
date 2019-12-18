@@ -50,7 +50,7 @@ export const Data = (props) => {
       background:
         "This project was another collaborative effort with <a href='https://github.com/elaintran'>Elain Tran</a>, <a href='https://github.com/i-k0n/'>Mark Baker</a>, <a href='https://github.com/Dgarza0413'>David Garza</a>, and <a href='https://github.com/bmm019'>Brittany McNulty</a>. Our target was to create an app with real-life application. Engauge's core concept is to automate data collection. David's former role as a geologist required recording extensive data on oil wells in Excel sheets and on paper. With his field knowledge, we tailored Enguage to be an ideal method for consolidating and recording data for small oil companies with multiple wells.",
       description:
-        "Engauge organizes data users input through forms into a Mongo database and accesses the information to dynamically create charts, maps and financial data with live data from a financial API. My role in the project involved utilizing get/post routes to dynamically populate data in tables, creating components using React.js and building search/filter functions for a better user experience and data organization.",
+        "Engauge is a data repository created to automate data entry and organization. Users input data into forms designed specifically for the oil industry. The data is pushed to a Mongo database and used to dynamically create summary charts and statistics. My role in the project involved utilizing get/post routes to filter data into tables created using Bootstrap react components for a better user experience and data organization.",
       link: "https://serene-meadow-56536.herokuapp.com/",
       tags: [
         "React",
