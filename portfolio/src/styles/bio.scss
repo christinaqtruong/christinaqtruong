@@ -5,7 +5,7 @@
   grid-template-rows: 8fr 2fr;
   grid-template-columns: 1fr 2fr;
   height: 92vh;
-  padding: 5vh;
+  padding: 10vh;
   text-align: center;
   align-items: center;
   grid-gap: 3vh;
@@ -66,6 +66,7 @@
   #bio {
     display: flex;
     flex-direction: column;
+    padding: 5vh;
   }
 
   .Github,

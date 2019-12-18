@@ -15,7 +15,7 @@
 }
 
 #details {
-  margin: 5vh;
+  margin: 10vh;
 }
 
 .dev-span{
@@ -35,4 +35,10 @@
 
 .carousel-indicators{
   height: 0px;
+}
+
+@media (max-width: 600px) {
+  #details {
+    margin: 5vh;
+  }
 }
