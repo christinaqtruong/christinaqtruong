@@ -11,7 +11,7 @@
 .title{
   text-align: center;
   font-size: 2em;
-  margin-bottom: 2vh;
+  margin-bottom: 5vh;
 }
 
 #details {
@@ -29,6 +29,10 @@
 
 .carousel{
   margin: auto;
-  margin-bottom: 2vh;
-  max-width: 60vh;
+  margin-bottom: 5vh;
+  max-width: 100vh;
+}
+
+.carousel-indicators{
+  height: 0px;
 }

@@ -1,6 +1,29 @@
 import React, { useState, createContext } from "react";
 import Engauge from "../images/Engauge.png";
 import Heroes_United from "../images/Heroes_United.png";
+import e1 from "../gifs/Gif Images/engauge/E1.png";
+import e2 from "../gifs/Gif Images/engauge/E2.png";
+import e3 from "../gifs/Gif Images/engauge/E3.png";
+import e4 from "../gifs/Gif Images/engauge/E4.png";
+import e5 from "../gifs/Gif Images/engauge/E5.png";
+import e6 from "../gifs/Gif Images/engauge/E6.png";
+import e7 from "../gifs/Gif Images/engauge/E7.png";
+import h1 from "../gifs/Gif Images/heroes/HU1.png";
+import h2 from "../gifs/Gif Images/heroes/HU2.png";
+import h3 from "../gifs/Gif Images/heroes/HU3.png";
+import h4 from "../gifs/Gif Images/heroes/HU4.png";
+import h5 from "../gifs/Gif Images/heroes/HU5.png";
+import h6 from "../gifs/Gif Images/heroes/HU6.png";
+import h7 from "../gifs/Gif Images/heroes/HU7.png";
+import h8 from "../gifs/Gif Images/heroes/HU8.png";
+import h9 from "../gifs/Gif Images/heroes/HU9.png";
+import h10 from "../gifs/Gif Images/heroes/HU10.png";
+import h11 from "../gifs/Gif Images/heroes/HU11.png";
+import h12 from "../gifs/Gif Images/heroes/HU12.png";
+import h13 from "../gifs/Gif Images/heroes/HU13.png";
+import h14 from "../gifs/Gif Images/heroes/HU14.png";
+import h15 from "../gifs/Gif Images/heroes/HU15.png";
+import h16 from "../gifs/Gif Images/heroes/HU16.png";
 
 export const DataContext = createContext();
 export const Data = (props) => {
@@ -36,7 +59,7 @@ export const Data = (props) => {
       ],
       icon: Heroes_United,
       github: "https://github.com/elaintran/heroes-united",
-      gallery: ["../gifs/Gif Images/engauge/E1.png"]
+      gallery: [h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13,h14,h15,h16]
     },
     {
       title: "Engauge",
@@ -64,7 +87,7 @@ export const Data = (props) => {
       ],
       icon: Engauge,
       github: "https://github.com/Dgarza0413/engauge",
-      gallery: ["../gifs/Gif Images/engauge/E1.png","../gifs/Gif Images/engauge/E2.png","../gifs/Gif Images/engauge/E3.png","../gifs/Gif Images/engauge/E4.png","../gifs/Gif Images/engauge/E5.png","../gifs/Gif Images/engauge/E6.png","../gifs/Gif Images/engauge/E7.png"]
+      gallery: [e1,e2,e3,e4,e5,e6,e7]
     },
     // {
     //   title: "Lazy Timer",
